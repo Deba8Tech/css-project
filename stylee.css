@@ -1,0 +1,101 @@
+@font-face{
+    font-family:roboto;
+    src: url(./roboto/RobotoCondensed-Italic-VariableFont_wght.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+    
+
+}
+main{
+    height:100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+nav{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+        background-color: #54157e;
+        padding: 45px 60px
+        
+        
+    
+}
+
+nav .part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+nav h2{
+    font-size: 50px;
+    font-weight: 450;
+color: white;
+}
+nav a{
+    font-size: 25px;
+    color: rgb(252, 250, 250);
+    text-decoration: none;
+}
+section{
+   /* background-color: red;*/
+   padding: 60px;
+
+}
+.herotext1{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: blue;
+    background-size: auto;
+}
+.herotext1 h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 300px
+    margin-top: 180px;
+}
+.herotext1 .video{
+    height: 100px;
+    width: 350px;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: 73px;
+    margin-right: 30px;
+
+}
+.herotext2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: red;
+    background-size: auto;
+
+}
+.herotext2 p{
+    font-size: 20pxpx;
+    text-transform: uppercase;
+    width: 300px;
+    margin-bottom: 300px;
+    margin-right: 60px;
+}
+.herotext2 h1{
+    font-size: 200px;
+    text-transform: uppercase;
+    margin-bottom: 180px;
+
+
+}
